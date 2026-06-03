@@ -101,7 +101,7 @@ function FixInputOnBlur()  { gameInstance&&gameInstance.SendMessage('_WebGLKeybo
    CDN — sadece bunu değiştir
    playgama-bridge-unity.js dosyasını da CDN'e yükle (Build yanına)
    ================================================================ */
-var CDN = "https://github.com/zx9qv8n4rpl7t6k2m1y/baals/tree/main";   /* örn: https://cdn.jsdelivr.net/gh/user/repo@main */
+var CDN = "https://cdn.jsdelivr.net/gh/zx9qv8n4rpl7t6k2m1y/baals@main/";   /* örn: https://cdn.jsdelivr.net/gh/user/repo@main */
 
 var canvas   = document.getElementById('canvas');
 var loaderEl = document.getElementById('loader');
