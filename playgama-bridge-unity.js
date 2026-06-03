@@ -109,7 +109,7 @@ function addLocalBridge() {
 }
 
 bridgeScript = document.createElement('script')
-bridgeScript.src = 'https://bridge.playgama.com/v1/stable/playgama-bridge.js'
+bridgeScript.src = 'https://cdn.jsdelivr.net/gh/zx9qv8n4rpl7t6k2m1y/baals@main/playgama-bridge.js'
 bridgeScript.onload = initializeBridge
 bridgeScript.onerror = addLocalBridge
 
