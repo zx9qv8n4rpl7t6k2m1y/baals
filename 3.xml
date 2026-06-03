@@ -396,7 +396,7 @@ bridge.onload = function() {
       productVersion:     "1.0"
     }, function(progress){
       setProgress(progress*100,
-        progress<1 ? 'Loading... '+Math.round(progress*100)+'%' : '');
+        progress<1 ? 'Yükleniyor... '+Math.round(progress*100)+'%' : '');
     }).then(function(inst){
       gameInstance = inst;
       window.unityInstance = inst;
@@ -411,7 +411,6 @@ document.body.appendChild(bridge);
 
 document.addEventListener('pointerdown',function(){ canvas.focus(); window.focus(); });
 </script>
-
 </body>
 </html>
 
